@@ -1,0 +1,18 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px;
+}
+.content div {
+  width: 30%;
+  align-item: center;
+  padding: 0 10px;
+}
+.contentTitle {
+  font-size: 28px;
+}
+.contentDescription {
+  width: 80%;
+}

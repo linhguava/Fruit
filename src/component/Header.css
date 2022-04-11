@@ -1,0 +1,30 @@
+.Header {
+  height: 90vh;
+  background-image: url(../images/header/header.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.title {
+  font-size: 36px;
+}
+.description {
+  width: 450px;
+  font-size: 20px;
+}
+.headerButton {
+  font-size: 28px;
+  color: white;
+  border: solid 3px white;
+  border-radius: 10px;
+  padding: 0 30px;
+  text-decoration: none;
+}
+.Header a:hover {
+  color: #000;
+  background-color: #eaf818;
+  transition: all 0.3s ease;
+}

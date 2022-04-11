@@ -1,0 +1,32 @@
+.AppBar {
+  display: flex;
+  font-size: 28px;
+  padding: 10px;
+  justify-content: space-around;
+}
+.list {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.list a {
+  padding: 0 30px;
+}
+.list a:hover {
+  background-color: #f0f0f0;
+}
+.button {
+  text-decoration: none;
+  color: #000;
+}
+
+// Screen on smartphone //
+@media only screen and (max-width: 600px) {
+  .AppBar {
+    font-size: 20px;
+    background-color: black;
+  }
+  .list a {
+    padding: 0 10px;
+  }
+}

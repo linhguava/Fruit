@@ -1,7 +1,5 @@
 .content {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
   justify-content: center;
   margin: 20px;
 }
@@ -15,4 +13,23 @@
 }
 .contentDescription {
   width: 80%;
+}
+@media only screen and (max-width: 400px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 20px 10px;
+  }
+  .content div {
+    width: 95%;
+    /* padding: 0 0; */
+  }
+  .contentImg {
+    width: 100%;
+  }
+  .contentDescription {
+    width: 100%;
+  }
 }

@@ -1,0 +1,13 @@
+.footer {
+  background-color: #3c3d41;
+  height: 20vh;
+}
+.footerTitle {
+  color: #ffffff;
+}
+@media only screen and (max-width: 400px) {
+  .footerTitle {
+    font-size: 20px;
+    padding: 20px;
+  }
+}

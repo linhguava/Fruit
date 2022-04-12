@@ -12,7 +12,7 @@
   font-size: 36px;
 }
 .description {
-  width: 450px;
+  width: 40%;
   font-size: 20px;
 }
 .headerButton {
@@ -27,4 +27,18 @@
   color: #000;
   background-color: #eaf818;
   transition: all 0.3s ease;
+}
+
+@media only screen and (max-width: 400px) {
+  .Header {
+    text-align: center;
+    padding: 0 10px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .description {
+    width: 100%;
+    font-size: 20px;
+  }
 }
